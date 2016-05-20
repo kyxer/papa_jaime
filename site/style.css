@@ -20,9 +20,11 @@
  * Descripcion: Funciones de crossbrowser
  *
  *-------------------------------------------------------------------------*/
-/*{
-    font-family: 'Helvetica';
-}*/
+* {
+  font-family: 'Aller Light', sans-serif;
+  margin: 0;
+  padding: 0;
+}
 .no-padding {
   padding-left: 0px;
   padding-right: 0px;
@@ -361,6 +363,122 @@
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
+}
+.g-p-c {
+  text-align: center;
+  font-family: 'Aller Light', sans-serif;
+  margin-bottom: 60px;
+}
+.g-cnt-new {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  border-color: #007a6d;
+}
+.col-md-offset-g {
+  margin-left: 14.33333333%;
+}
+.g-new-card img {
+  width: 100%;
+}
+.g-new-card h1 {
+  color: #007a6d;
+  font-size: 40px;
+}
+.g-new-card p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.g-new-card a {
+  padding: 8px;
+  font-style: italic;
+  color: #777777;
+  font-size: 15px;
+}
+.g-new-card a img {
+  width: 20px;
+}
+.g-aud-cnt {
+  padding-right: 40px;
+}
+.g-aud {
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  border-color: #007a6d;
+  float: left;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.g-aud h1 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #007a6d;
+  font-size: 30px;
+}
+.g-aud label {
+  font-weight: normal;
+}
+.g-aud p {
+  font-size: 18px;
+}
+.g-aud-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-left: 1px solid;
+  border-color: #007a6d;
+}
+.g-aud-2 li {
+  display: inline;
+  list-style: none;
+}
+.g-aud-2 p {
+  font-size: 14px;
+}
+.g-tag {
+  padding: 4px;
+  background: #007a6d;
+  color: white;
+  font-size: 15px;
+  float: right;
+}
+.g-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.col-md-f {
+  width: 30.333333%;
+}
+.g-fra {
+  text-align: center;
+  overflow: hidden;
+  margin-left: 30px;
+}
+.g-fra img {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+}
+.g-fra a {
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  line-height: 300px;
+}
+.g-pagination {
+  text-align: center;
+}
+.g-pagination ul li a {
+  border: 0px solid;
+}
+.g-pagination ul li a:hover {
+  border: 0px solid;
+  background-color: transparent;
 }
 .cpal-footer {
   margin-top: 50px;
